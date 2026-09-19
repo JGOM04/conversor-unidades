@@ -1,0 +1,23 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.1.1, pluggy-1.6.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/claude/conversor
+configfile: pytest.ini
+collecting ... collected 14 items
+
+test_converter.py::test_celsius_a_fahrenheit[0-32.0] PASSED              [  7%]
+test_converter.py::test_celsius_a_fahrenheit[100-212.0] PASSED           [ 14%]
+test_converter.py::test_celsius_a_fahrenheit[-40--40.0] PASSED           [ 21%]
+test_converter.py::test_celsius_a_fahrenheit[37-98.6] PASSED             [ 28%]
+test_converter.py::test_fahrenheit_a_celsius PASSED                      [ 35%]
+test_converter.py::test_km_a_millas[0-0.0] PASSED                        [ 42%]
+test_converter.py::test_km_a_millas[1-0.62] PASSED                       [ 50%]
+test_converter.py::test_km_a_millas[10-6.21] PASSED                      [ 57%]
+test_converter.py::test_km_a_millas[42.195-26.22] PASSED                 [ 64%]
+test_converter.py::test_millas_a_km PASSED                               [ 71%]
+test_converter.py::test_mxn_a_usd PASSED                                 [ 78%]
+test_converter.py::test_usd_a_mxn PASSED                                 [ 85%]
+test_converter.py::test_tasa_invalida_lanza_error PASSED                 [ 92%]
+test_converter.py::test_precision_dos_decimales PASSED                   [100%]
+
+============================== 14 passed in 0.02s ==============================
